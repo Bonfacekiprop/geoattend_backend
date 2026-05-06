@@ -187,4 +187,4 @@ app.post("/attendance/sign", auth, (req, res) => {
   return res.json({ message: "Attendance successfully verified via GPS." });
 });
 
-app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
+app.listen(PORT, "0.0.0.0", () => console.log(`Backend running on port ${PORT}`));
