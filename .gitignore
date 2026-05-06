@@ -1,4 +1,5 @@
 node_modules
-*.db
 .env
 .DS_Store
+# Keep attendance.db for Railway deployment
+!attendance.db
